@@ -24,10 +24,11 @@
             "<br>Longitude: " + position.coords.longitude;
       }
 
-      /*function showError(error) {
+      function showError(error) {
          switch (error.code) {
             case error.PERMISSION_DENIED:
-               x.innerHTML = "User denied the request for Geolocation."
+               x.innerHTML = "Latitude: " + position.coords.latitude +
+                  "<br>Longitude: " + position.coords.longitude;
                break;
             case error.POSITION_UNAVAILABLE:
                x.innerHTML = "Location information is unavailable."
@@ -39,7 +40,7 @@
                x.innerHTML = "An unknown error occurred."
                break;
          }
-      }*/
+      }
    </script>
 </body>
 
