@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;800&family=Josefin+Slab:ital,wght@0,100;0,500;0,600;1,100;1,200;1,700&family=Mulish:ital,wght@0,200;0,400;0,600;1,200;1,300;1,600&display=swap');
+
+* { 
+   align-content: center;
+   background-color: #6a3093;
+}
+
+.container {
+   width: 100%;
+   background-color: #eee;
+   align-items: center;
+   padding-top: .5rem; 
+   padding-bottom: .5rem;
+   text-align: center;
+   border-radius: 5px;
+   box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5);
+}
+
+.titulo { 
+   font-weight: bold;
+   font-family: "Baloo Da 2";
+   font-weight: bold;
+   background-color: #eee;
+}
+
+button { 
+   background: #6a3093;
+   background: -webkit-linear-gradient(to right, #a044ff,#6a3093 ) ;
+   background: linear-gradient(to left, #a044ff,#6a3093 );
+   font-size: 1rem;
+   color: #eee;
+   font-family: "Mulish";
+   font-weight: bold;
+   border-radius: 5px;
+   border: none;
+   box-shadow: 0 .1rem .8rem rgba(0, 0, 0, alpha);
+   cursor: pointer;
+   width: 5rem ;
+   height: 2.5rem;
+}
+
+.container p { 
+   font-weight: 700;
+   font-size: 1.2rem;
+   font-family: "Josefin Slab" ;
+   background-color: #eee;
+}
+
+
+#demo { 
+   margin-top: 3rem;
+   background-color: #eee;
+   height: 2rem ;
+
+   text-align: center;
+
+}
